@@ -14,7 +14,7 @@
             "msg":[
                 "type end to start end vote",
                 "start msg with prefix .(dot) to send in game popup msg",
-                "start msg with prefix ,(comma) to send msg to teammates",
+                "start msg with prefix ,(comma) to send msg to teammates"
                 ]
         }
     },
