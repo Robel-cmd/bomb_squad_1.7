@@ -1,0 +1,140 @@
+{
+    "whitelist": false,
+    "useV2Account": false,
+    "Anti-IdRevealer": false,
+    "ChatCommands": {
+  	  "BrodcastCommand": true
+    },
+    "textonmap": {
+        "top watermark": "Welcome to server \nIP @IP PORT @PORT",
+        "bottom left watermark": "Owners : <Robel, camx > \nEditor : <Robel>\nScripts : BCS1.7.13",
+        "center highlights":{
+            "color":[1,0,0],
+            "randomColor":true,
+            "msg":[
+                "type end to start end vote",
+                "start msg with prefix .(dot) to send in game popup msg",
+                "start msg with prefix ,(comma) to send msg to teammates",
+                ]
+        }
+    },
+    "ScoreScreenAnnouncement":{
+        "enable": true,
+        "msg": ["click stats button to join discord", "watch hey smoothy youtube channel","download new mods from discord", "use /ping all to check others ping.",
+    "start msg with prefix ,(comma) to send msg to teammates", "start msg with prefix .(dot) to send in game popup msg","click stats button for leaderboard","get notification when friends join this server, checkout leaderboard",
+"abusers, spammers will get auto ban", "doesnt matter who starts fight, if you abuse- you will get ban too."]
+    },
+    "statsResetAfterDays":31,
+    "leaderboard":{
+        "enable":true,
+        "barsBehindName":true
+    },
+    "autoNightMode":{
+        "enable":true,
+        "startTime":"18:30",
+        "endTime":"06:00",
+        "fireflies":true,
+        "fireflies_random_color":false
+    },
+    "colorfullMap":false,
+    "playlists":{
+        "team":488847,
+        "ffa":412175,
+        "elim":412172,
+        "soccer":412160,
+        "smash":412151,
+        "ffasmash":412179,
+        "epic":412173
+    },
+    "coopModeWithLessPlayers":{
+        "enable":false,
+        "minPlayerToExitCoop":0
+    },
+    "mikirogQuickTurn":{
+        "enable":false
+    },
+    "colorful_explosions":{
+        "enable":false
+    },
+    "ballistica_web": {
+        "enable":false,
+         "server_password":"my_secerT_password_very_hard"
+    },
+    "character_chooser":{
+        "enable":true
+    },
+    "custom_characters": {
+        "enable":true
+    },
+    "StumbledScoreScreen":true,
+    "elPatronPowerups":{
+        "enable":true,
+        "settings":{"Powers Gravity": false,
+            "Tank Shield PTG": 96,
+            "Healing Damage PTG": 72,
+            "Powerup Style": "Auto",
+            "Powerup Scale": 2.0,
+            "Powerup Name": false,
+            "Powerup With Shield": false,
+            "Powerup Time": true},
+        "Quantity":{ "Shield": 0,
+             "Punch": 0, "Mine Bombs": 3,
+            "Impact Bombs": 3, "Ice Bombs": 0, "Triple": 3,
+            "Sticky Bombs": 3, "Curse": 1, "Health": 2,
+            "Speed": 0, "Healing Damage": 0, "Goodbye": 0,
+            "Ice Man": 0,"Tank Shield": 0, "Impairment Bombs": 0,
+            "Fire Bombs": 0, "Fly Bombs": 0}
+    },
+    "discordbot":{
+        "enable":false,
+        "token":"<secret-token-here>",
+        "liveChat":true,
+        "liveStatsChannelID":925440043672285205,
+        "logsChannelID":925440079843958834
+    },
+    "discordWebHook": {
+        "enable": false,
+        "webhookURL": "https://discord.com/api/webhooks/82649239/e7s0zyBJIuczXL7_CGSO5WM"
+    },
+    "afk_remover":{
+        "enable":false,
+        "ingame_idle_time_in_secs":60,
+        "kick_idle_from_lobby":true,
+        "lobby_idle_time_in_secs":10
+    },
+    "playermod": {
+        "default_boxing_gloves": true,
+        "default_shield" : false,
+        "default_bomb" : "normal",
+        "default_bomb_count" : 1
+    },
+    "allowTeamChat":true,
+    "allowVotes":true,
+    "allowInGameChat":true,
+    "sameCharacterForTeam":false,
+    "newResultBoard":true,
+    "HostDeviceName":"v1.4",
+    "HostName":"BCS",
+    "ShowKickVoteStarterName":true,
+    "autoTeamBalance": true,
+    "KickVoteMsgType":"chat",
+    "minAgeToChatInHours":78,
+    "minAgeToJoinInHours":24,
+    "maxWarnCount":2,
+    "WarnCooldownMinutes":30,
+    "maxAccountPerIP":1,
+    "maxPlayersPerDevice":1,
+    "warnMsg":"WARNING !!!",
+    "afterWarnKickMsg":"Enough warnings, Goodbye have a nice day :)",
+    "firstTimeJoinMsg":"Welcome to the server,we r saving all your account details and chats",
+    "regularWelcomeMsg":"Welcome Back",
+    "contributeData": true,
+    "enabletags": true,
+    "enablehptag": true,
+    "enablerank": true,
+    "enablestats": true,
+    "enableHitTexts": false,
+    "enableeffects": true,
+    "enableTop5effects": true,
+    "enableTagAnimation":true
+}
